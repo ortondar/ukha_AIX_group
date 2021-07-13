@@ -1,6 +1,5 @@
 --- 
-- name: Create group joker
+- name: Create group "joker"
   ibm.power_aix.group:
-    state: present
     name: joker
-  
+    state: present
