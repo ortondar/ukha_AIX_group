@@ -1,4 +1,6 @@
-- name: Create group joker
-  ibm.power_aix.group:
-    state: present
+--- 
+- 
+  ibm.power_aix.group: 
     name: joker
+    state: present
+  name: "Create group joker"
